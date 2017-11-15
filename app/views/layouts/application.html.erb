@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Grupoarg24</title>
+    <title>GrupoArg24</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag %>
   </head>
 
   <body>
-    <%= yield %>
+
+    <div class="parallax"></div>
+      <div class="normal">
+        <div class="inside-normal">
+          <%= image_tag "grupoarg24.png", class: "logo-izq" %>
+          <%= image_tag "mainLogoSmall.png", size: "100", class: "logo-der" %>
+          <h1>¡Iluminamos con vida su proyecto!</h1>
+
+        </div>
+        <%= yield  %>
+        Solicitar Información por correo a <%= mail_to "contacto@grupoarg24.com", "contacto@grupoarg24.com", subject: "Solicitud de Información" %>
+      </div>
+      <h2><<< Aplicación en construcción >>></h2>
   </body>
 </html>

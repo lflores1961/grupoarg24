@@ -1,0 +1,74 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.parallax {
+  background-image: url("backgroundImage01.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.normal {
+  height: 700px;
+  background-image: url("parallaxImage.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-left: 30px;
+
+  font-family: Verdana, Geneva, sans-serif;
+  color: #800040;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .inside-normal {
+    max-width: 700px;
+    margin: auto;
+    img.logo-izq {
+      padding-left: 70px;
+      padding-right: 30px;
+    }
+    img.logo-der {
+
+    }
+  }
+
+  h1 {
+    color: #004d4d;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+  .left {
+    width: 50%;
+    ul {
+      padding-left: 20px;
+    }
+  }
+
+  .right {
+    width: 50%;
+    ul {
+      padding-left: 20px;
+    }
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    padding-left: 40px;
+  }
+
+}
