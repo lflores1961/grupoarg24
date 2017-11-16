@@ -1,0 +1,86 @@
+/* line 5, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.parallax {
+  background-image: url(/assets/backgroundImage01-5e16efc97ca3c5b6baa702381eb6a3c4a12c2e3c634d9a842f9665785a333a95.png);
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 14, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal {
+  height: 700px;
+  background-image: url(/assets/parallaxImage-e27ff9deb4da80fc8728781a1f501cb7a5a3d8a44170f6a9e202c8ed36b74261.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-left: 30px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #800040;
+}
+/* line 25, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal * {
+  box-sizing: border-box;
+}
+/* line 29, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .inside-normal {
+  max-width: 700px;
+  margin: auto;
+}
+/* line 32, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .inside-normal img.logo-izq {
+  padding-left: 70px;
+  padding-right: 30px;
+}
+/* line 41, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal h1 {
+  color: #004d4d;
+}
+/* line 45, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .column {
+  float: left;
+  padding: 10px;
+}
+/* line 50, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .left {
+  width: 50%;
+}
+/* line 52, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .left ul {
+  padding-left: 20px;
+}
+/* line 57, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .right {
+  width: 50%;
+}
+/* line 59, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .right ul {
+  padding-left: 20px;
+}
+/* line 64, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 70, /home/lflores/Projects/grupoarg24/app/assets/stylesheets/static_pages.scss.erb */
+.normal .row {
+  padding-left: 40px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
