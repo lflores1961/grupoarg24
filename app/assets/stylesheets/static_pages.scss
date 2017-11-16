@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .parallax {
-  background-image: url("backgroundImage01.png");
+  background-image: assets_url("images/backgroundImage01.png");
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -13,7 +13,7 @@
 
 .normal {
   height: 700px;
-  background-image: url("parallaxImage.jpg");
+  background-image: assets_url("images/parallaxImage.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
